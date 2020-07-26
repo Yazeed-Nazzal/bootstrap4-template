@@ -594,7 +594,7 @@ width: 100%;
   @include block-padding
 }
 
-//statistics
+// Start statistics
 .statistics-icon
 {
   font-size: 30px;
@@ -608,6 +608,63 @@ width: 100%;
 }
 .statistics-name
 {
-  color: $red;
+  color: #ed1d24;
   font-weight: bold;
 }
+// End statistics
+
+//Start Contact Us
+.Contact-Us
+{
+  @include block-padding;
+  background-color: $red;
+  padding-top: 100px;
+}
+.Contact-Us p
+{
+  color: #fff;
+  font-size: 30px;
+  line-height: 24px;
+  margin-top: 8px;
+  float: left;
+  font-weight: 400;
+
+}
+.Contact-Us a
+{
+  background: #ed1d24;
+  color: #fff !important;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  line-height: 46px;
+  padding: 0 20px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  letter-spacing: 2px;
+  min-width: 170px;
+  box-sizing: border-box;
+  border: solid 2px white;
+  @include transition-mood;
+  font-family: 'Lato', sans-serif;
+}
+.Contact-Us a:hover
+{
+  background-color: $blue;
+  @include transition-mood;
+}
+//End Contact Us
+
+
+
+
+
+
+
+
+
+

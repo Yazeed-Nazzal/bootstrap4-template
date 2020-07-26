@@ -536,8 +536,50 @@ button:active, button:hover, button:visited, button:focus {
 }
 
 .statistics-name {
-  color: #ED1E25;
+  color: #ed1d24;
   font-weight: bold;
+}
+
+.Contact-Us {
+  padding: 50px 0px;
+  background-color: #ED1E25;
+  padding-top: 100px;
+}
+
+.Contact-Us p {
+  color: #fff;
+  font-size: 30px;
+  line-height: 24px;
+  margin-top: 8px;
+  float: left;
+  font-weight: 400;
+}
+
+.Contact-Us a {
+  background: #ed1d24;
+  color: #fff !important;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  line-height: 46px;
+  padding: 0 20px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  letter-spacing: 2px;
+  min-width: 170px;
+  box-sizing: border-box;
+  border: solid 2px white;
+  transition: ease 200ms;
+  font-family: "Lato", sans-serif;
+}
+
+.Contact-Us a:hover {
+  background-color: #08526D;
+  transition: ease 200ms;
 }
 
 /*# sourceMappingURL=style.css.map */

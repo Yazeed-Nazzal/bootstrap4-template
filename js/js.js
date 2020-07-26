@@ -24,6 +24,7 @@ $(function () {
             $(".Why-Choose-Us-Info").removeClass("animate__fadeOutRight").addClass("animate__fadeInRight");
             $(".Why-Choose-Us-Img").removeClass("animate__fadeOutLeft").addClass("animate__fadeInLeft");
 
+
         }
         // Why choice is scroll
 
@@ -59,6 +60,7 @@ $(function () {
     })
 
     //Testimonials Hover
+
     $('.counter').counterUp({
         delay: 10,
         time: 1000
