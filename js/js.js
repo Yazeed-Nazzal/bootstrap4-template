@@ -1,5 +1,4 @@
 $(function () {
-
     // slider height
     var win = $(window).height();
     var upper = $('.upper-bar').innerHeight();
@@ -9,23 +8,30 @@ $(function () {
 
 
     // window scroll event
-
     $(window).scroll(function () {
-
-        if ($(this).scrollTop() >= 280){
+        //Features scroll
+        if ($(this).scrollTop() >= 280) {
             $(".i1").removeClass("animate__fadeOut").addClass("animate__fadeInUp");
-            $(".i2").removeClass("animate__fadeOut").css("animation-delay","500ms").addClass("animate__fadeInUp");
-            $(".i3").removeClass("animate__fadeOut").css("animation-delay","1000ms").addClass("animate__fadeInUp");
-            $(".i4").removeClass("animate__fadeOut").css("animation-delay","1500ms").addClass("animate__fadeInUp");
+            $(".i2").removeClass("animate__fadeOut").css("animation-delay", "500ms").addClass("animate__fadeInUp");
+            $(".i3").removeClass("animate__fadeOut").css("animation-delay", "1000ms").addClass("animate__fadeInUp");
+            $(".i4").removeClass("animate__fadeOut").css("animation-delay", "1500ms").addClass("animate__fadeInUp");
 
-            // $(".Features-item").removeClass("animate__fadeOut").addClass("animate__fadeInUp");
         }
+        //Features scroll
+
+        // Why choice is scroll
+        if ($(this).scrollTop() >= 4908) {
+            $(".Why-Choose-Us-Info").removeClass("animate__fadeOutRight").addClass("animate__fadeInRight");
+            $(".Why-Choose-Us-Img").removeClass("animate__fadeOutLeft").addClass("animate__fadeInLeft");
+
+        }
+        // Why choice is scroll
+
 
     });
 
 
     // window scroll event
-
 
     $('.slider , .carousel-item').height(win - ( upper + nav ));
     //shuffle img
