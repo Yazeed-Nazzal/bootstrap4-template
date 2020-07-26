@@ -583,7 +583,31 @@ width: 100%;
   -moz-background-origin: content-box;
   -o-background-origin: content-box;
   background-origin: content-box;
+  min-height: 500px;
+}
+//End Why Choose Us
+
+
+//statistics
+.statistics
+{
+  @include block-padding
 }
 
-
-//End Why Choose Us
+//statistics
+.statistics-icon
+{
+  font-size: 30px;
+  font-weight: bold;
+  color: $blue;
+}
+ .statistics-num {
+  color: $blue;
+  font-size: 40px;
+  font-weight: bold;
+}
+.statistics-name
+{
+  color: $red;
+  font-weight: bold;
+}

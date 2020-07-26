@@ -516,6 +516,28 @@ button:active, button:hover, button:visited, button:focus {
   -moz-background-origin: content-box;
   -o-background-origin: content-box;
   background-origin: content-box;
+  min-height: 500px;
+}
+
+.statistics {
+  padding: 50px 0px;
+}
+
+.statistics-icon {
+  font-size: 30px;
+  font-weight: bold;
+  color: #08526D;
+}
+
+.statistics-num {
+  color: #08526D;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.statistics-name {
+  color: #ED1E25;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */
