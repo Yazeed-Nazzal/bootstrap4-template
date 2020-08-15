@@ -582,4 +582,74 @@ button:active, button:hover, button:visited, button:focus {
   transition: ease 200ms;
 }
 
+.footer-bar {
+  padding: 50px 0px;
+  padding-top: 70px;
+  margin-bottom: 100px;
+  background-color: #f7f7f7;
+}
+
+.footer-bar p {
+  color: #555;
+}
+
+.footer-list div {
+  width: 45%;
+  display: inline-block;
+}
+
+.footer-info img {
+  margin-bottom: 30px;
+}
+
+.footer-info i {
+  margin-right: 10px;
+}
+
+.footer-info a, .footer-info i {
+  color: #08526D;
+  text-decoration: none;
+}
+
+.footer-info a:hover, .footer-info i:hover {
+  color: #ED1E25;
+}
+
+.footer-info .read:hover {
+  color: #ED1E25;
+  font-style: unset;
+}
+
+.footer-bar h3 {
+  color: #08526D;
+  margin-bottom: 30px;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.footer-list ul {
+  list-style: none;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.footer-list ul li {
+  padding-left: 0px;
+  color: #08526d;
+  font-size: 17px;
+  margin-bottom: 13px;
+  transition: ease 200ms;
+}
+
+.footer-list ul li:hover {
+  color: red;
+  transform: translate(6px);
+  transition: ease 200ms;
+}
+
+.footer-list ul li i {
+  margin-right: 10px;
+  color: #ccc;
+}
+
 /*# sourceMappingURL=style.css.map */
